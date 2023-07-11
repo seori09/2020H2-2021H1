@@ -1,0 +1,75 @@
+/* reset */
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {text-decoration: none; color: #000;}
+img {margin: 0;}
+
+
+
+/* section00 */
+#section00 {width: 100%; height: 100%;}
+#section00 h3 {text-align: center; padding-top: 280px; font-size: 48px;}
+#section00 h1 {text-align: center; font-size: 100px;}
+
+/* section01 */
+#section01 {width: 1920px; height: 950px;}
+#section01 .s01_img {height: 1000px; background: url(../img/p01.png)center center; background-repeat: no-repeat;}
+
+
+/* section02 */
+#section02 {width: 100%; height: 100%; position: relative;}
+#section02 h1 {float: left; font-size: 44pt; padding-left: 270px; padding-top: 532px; position: absolute;}
+#section02 h3 {float: left; font-size: 36pt; padding-top:522px; padding-left:1372px; position: absolute;}
+#section02 ul {float: left; width: 700px; text-align: left; padding-left: 712px; padding-top: 406px; position: absolute;}
+#section02 ul li {padding-bottom: 50px;}
+#section02 ul li a {font-size: 25pt;}
+
+
+
+/* section03 */
+#section03 {width: 100%; height: 100%; position: relative;}
+#section03 img {margin-left: -800px; padding-top: 100px; width: 1000px;}
+#section03 ul {width: 460px; height: 515px; position: absolute; left: 950px; top: 200px;}
+#section03 ul h3 {text-align: left}
+#section03 ul li {padding-top: 50px; text-align: left;}
+#section03 ul li:last-child {padding-top: 100px;}
+#section03 ul li a {display: block;}
+
+
+/* section04 */
+#section04 {width: 100%; height: 100%; position: relative;}
+#section04 img {margin-left: -800px; padding-top: 100px; width: 1000px;}
+#section04 ul {width: 460px; height: 515px; position: absolute; left: 950px; top: 200px;}
+#section04 ul h3 {text-align: left}
+#section04 ul li {padding-top: 50px; text-align: left;}
+#section04 ul li:last-child {padding-top: 100px;}
+#section04 ul li a {display: block;}
+
+
+/* section05 */
+#section05 {width: 100%; height: 100%; position: relative;}
+#section05 img {margin-left: -800px; padding-top: 100px; width: 1000px;}
+#section05 ul {width: 460px; height: 515px; position: absolute; left: 950px; top: 200px;}
+#section05 ul h3 {text-align: left}
+#section05 ul li {padding-top: 50px; text-align: left;}
+#section05 ul li:last-child {padding-top: 100px;}
+#section05 ul li a {display: block;}
+
+
+
+/* section06 */
+#section06 {width: 100%; height: 100%; position: relative;}
+#section06 img {margin-left: -800px; padding-top: 100px; width: 1000px;}
+#section06 ul {width: 460px; height: 515px; position: absolute; left: 950px; top: 200px;}
+#section06 ul h3 {text-align: left}
+#section06 ul li {padding-top: 50px; text-align: left;}
+#section06 ul li:last-child {padding-top: 100px;}
+#section06 ul li a {display: block;}
+
+
+/* section07 */
+#section07 {width: 100%; height: 100%;}
+#section07 p {text-align: center; padding-top: 330px; font-size: 48px;}
+
+
+

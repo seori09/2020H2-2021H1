@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Muliebria</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+    <script>
+        $(document).ready(function(){
+			$('header >nav >ul> li').hover(function(){
+			$(this).find('ul').show();
+		},function(){
+			$(this).find('ul').hide();
+		});
+        });
+    </script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="login">
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#"><img src="img/shopping.png" alt="cart">Cart</a></li>
+                    <li><a href="#"><img src="img/search.png" alt="search">Search</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">what’s new</a>
+                        <ul>
+                            <li><a href="#">outer</a></li>
+                            <li><a href="#">top</a></li>
+                            <li><a href="#">pants</a></li>
+                            <li><a href="#">skirt</a></li>
+                            <li><a href="#">bag</a></li>
+                            <li><a href="#">shoes</a></li>
+                            <li><a href="#">jewelry</a></li>
+                            <li><a href="#">perfume</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">best</a></li>
+                    <li><a href="#">sale</a></li>
+                    <li><a href="#">outer</a></li>
+                    <li><a href="#">top</a></li>
+                    <li><a href="#">pants</a></li>
+                    <li><a href="#">skirt</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">jewelry</a></li>
+                    <li><a href="#">perfume</a></li>
+                </ul>
+            </nav>
+        </header>
+            
+        <div class="contents">
+            <div class="row1">
+                <div class="row1_1">
+                    <img src="img/img_01.jpg" alt="dress">
+                </div>
+                <div class="row1_2">
+                    <img src="img/Realisation%20logo.jpg" alt="logo">
+                    <p>The Luella Summer Loving Blue Dress</p>
+                    <hr>
+                    <ul>
+                        <li><p>PRICE : <span>$170.00 USD</span></p></li>
+                        <li><p>SIZE : 
+                           <select name="Size" id="Size">
+                               <option value="XS">XS</option>
+                               <option value="S">S</option>
+                               <option value="M">M</option>
+                               <option value="L">L</option>
+                               <option value="XL">XL</option>
+                           </select>
+                            </p></li>
+                        <li><p>COUNT : <input type="number"><input type="button" value="Send"></p></li>
+                    </ul>
+                    <div class="button"><button><a href="#"><img src="img/shopping.png" alt="cart"><p>Add to Cart</p></a></button></div>
+                </div>
+                <div class="row1_3">
+                    <img src="img/img_02.png" alt="dress">
+                </div>
+            </div>
+            <div class="row2">
+                <img class="pic1" src="img/Realisation%20logo.jpg" alt="logo">
+                <img class="pic2" src="img/sister_txt.jpg" alt="txt">
+                <img class="pic3" src="img/sister.jpg" alt="sister">
+                <img class="pic4" src="img/signiture.jpg" alt="signiture">
+            </div>
+            <div class="row3">
+                <img src="img/model_01.jpg" alt="01">
+                <img src="img/txt_01.jpg" alt="txt01">
+                <img src="img/model_02.jpg" alt="02">
+            </div>
+            <div class="row4">
+                <img src="img/txt_02.jpg" alt="txt">
+                
+                <img src="img/baek_01.jpg" alt="baek">
+                <img src="img/baek_02.jpg" alt="baek">
+                <img src="img/baek_03.jpg" alt="baek">
+            </div>
+            <div class="row5">
+                <p>Products related to this item</p>
+                <img src="img/img_04.jpg" alt="dress">
+            </div>
+            <div class="row6">
+              <p>Products related to Yerin</p>
+               <div class="row6_imgs">
+                    <img src="img/baek_04.jpg" alt="b">
+                    <img src="img/baek_05.jpg" alt="b">
+                    <img src="img/baek_06.jpg" alt="b">
+                    <img src="img/baek_07.jpg" alt="b">
+                    <img src="img/baek_08.jpg" alt="b">
+                    <img src="img/baek_09.jpg" alt="b">
+                    <img src="img/baek_10.jpg" alt="b">
+                    <img src="img/baek_11.jpg" alt="b">
+                    <img src="img/baek_12.jpg" alt="b">
+                </div>
+            </div>
+        </div>
+        
+        
+        <footer>
+           <div class="img"></div>
+            <div class="footer_one">
+                <ul>
+                    <li><a href="#">리뷰</a></li>
+                    <li><a href="#">Q & A</a></li>
+                    <li><a href="#">주문조회</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">쇼핑가이드</a></li>
+                </ul>
+            </div>
+            <div class="footer_two">
+                <ul>
+                    <li><a href="#">평일 09:00–18:00 (점심시간 12:00–13:00)</a></li>
+                    <li><a href="#">+82 10-8218-2303</a></li>
+                    <li><a href="#">email : ssy00098@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="footer_three">
+                <ul>
+                    <li><a href="#">대표이사. 심소연</a></li>
+                    <li><a href="#">개인정보책임자. 심소연(s_y0309@naver.com)</a></li>
+                    <li><a href="#">사업자등록번호. 399-93-00309</a></li>
+                    <li><a href="#">통신판매업 신고번호. 제2021-서울강남-01357호</a></li>
+                    <li><a href="#">주소. 강남구 테헤란로 399, 3층</a></li>
+                    <li><a href="#">s_y0309@naver.com</a></li>
+                    <li><a href="#">ⓒ 2021</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

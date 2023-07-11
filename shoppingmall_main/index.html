@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Muliebria</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+    <script>
+      $(document).ready(function(){
+		// menu
+		// nav .center .lnb ul li:hover ul
+		$('header >nav >ul> li').hover(function(){
+			$(this).find('ul').show();
+		},function(){
+			$(this).find('ul').hide();
+		});
+        
+          
+        //slide  
+        var current = 0;
+		var banner = $('#banner .banner_left div');
+
+		setInterval(function(){
+			banner.eq(current%5).css({left:0}).animate({left:'-100%'},500);
+			current++;
+			banner.eq(current%5).css({left:'100%'}).animate({left:0},500);
+		},5000);
+      });
+    </script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="login">
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#"><img src="img/shopping.png" alt="cart">Cart</a></li>
+                    <li><a href="#"><img src="img/search.png" alt="search">Search</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">what’s new</a>
+                        <ul>
+                            <li><a href="#">outer</a></li>
+                            <li><a href="#">top</a></li>
+                            <li><a href="#">pants</a></li>
+                            <li><a href="#">skirt</a></li>
+                            <li><a href="#">bag</a></li>
+                            <li><a href="#">shoes</a></li>
+                            <li><a href="#">jewelry</a></li>
+                            <li><a href="#">perfume</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">best</a></li>
+                    <li><a href="#">sale</a></li>
+                    <li><a href="#">outer</a></li>
+                    <li><a href="#">top</a></li>
+                    <li><a href="#">pants</a></li>
+                    <li><a href="#">skirt</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">jewelry</a></li>
+                    <li><a href="#">perfume</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="banner">
+            <div class="banner_left">
+                    <div class="banner_left_01"></div>
+                    <div class="banner_left_02"></div>
+                    <div class="banner_left_03"></div>
+                    <div class="banner_left_04"></div>
+                    <div class="banner_left_05"></div>
+            </div>
+            
+            <div class="banner_right">
+                <div class="banner_right_1"><img src="img/sb_02.jpg" alt="subbanner"></div>
+                <div class="banner_right_2"><img src="img/sb_01.jpg" alt="subbanner"></div>
+            </div>
+        </div>
+        <div class="contents">
+            <div class="row1">
+                <img src="img/0_font_img/part.png" alt="part">
+                <div class="row1_img">
+                    <img src="img/r1_01.jpg" alt="Theme.1"><img src="img/r1_02.jpg" alt="Theme.2"><img src="img/r1_03.jpg" alt="Theme.3">
+                </div>
+                <div class="row1_txt">
+                    <img src="img/0_font_img/Theme.1.png" alt="Theme.1"><img src="img/0_font_img/Theme.2.png" alt="Theme.2"><img src="img/0_font_img/Theme.3.png" alt="Theme.3">
+                </div>
+            </div>
+            <div class="row2">
+                <div class="bg"><div class="posi"><img src="img/0_font_img/What's_new.png" alt="what's new"></div></div>
+            </div>
+            <img class="Tmp" src="img/0_font_img/Tmp.png" alt="The most popular products">
+            <div class="row3">
+                <img src="img/r3_01.jpg" alt="r3_01">
+                <img src="img/r4_05.jpg" alt="r3_02">
+                <img src="img/r4_06.jpg" alt="r3_04">
+                <img src="img/r4_02.jpg" alt="r3_03">
+                <img src="img/r4_07.jpg" alt="r3_05">
+            </div>
+            <div class="row5">
+                <img src="img/r5_02.jpg" alt="r5"><img src="img/r5_06.jpg" alt="r5"><img src="img/r5_04.jpg" alt="r5"><img src="img/r5_03.jpg" alt="r5">
+            </div>
+        </div>
+        <footer>
+           <div class="img"></div>
+            <div class="footer_one">
+                <ul>
+                    <li><a href="#">리뷰</a></li>
+                    <li><a href="#">Q & A</a></li>
+                    <li><a href="#">주문조회</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">쇼핑가이드</a></li>
+                </ul>
+            </div>
+            <div class="footer_two">
+                <ul>
+                    <li><a href="#">평일 09:00–18:00 (점심시간 12:00–13:00)</a></li>
+                    <li><a href="#">+82 10-8218-2303</a></li>
+                    <li><a href="#">email : ssy00098@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="footer_three">
+                <ul>
+                    <li><a href="#">대표이사. 심소연</a></li>
+                    <li><a href="#">개인정보책임자. 심소연(s_y0309@naver.com)</a></li>
+                    <li><a href="#">사업자등록번호. 399-93-00309</a></li>
+                    <li><a href="#">통신판매업 신고번호. 제2021-서울강남-01357호</a></li>
+                    <li><a href="#">주소. 강남구 테헤란로 399, 3층</a></li>
+                    <li><a href="#">s_y0309@naver.com</a></li>
+                    <li><a href="#">ⓒ 2021</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
